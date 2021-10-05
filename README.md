@@ -51,3 +51,4 @@ For general inquiry regarding README Generator v1.1, please contact us via the f
 
 - wendyqnguyen - [@github](https://github.com/wendyqnguyen/)
 - [Email](mailto:wendy@mail.com)
+
