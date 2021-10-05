@@ -14,7 +14,7 @@ const questions = [
     {
         type: 'number',
         name: 'version',
-        message: 'Please enter the version numnber >> '
+        message: 'Please enter the version number >> '
     },
     {
         type: 'input',
@@ -34,7 +34,7 @@ const questions = [
     {
         type: 'input',
         name: 'contribution',
-        message: 'Please enter contribution guidelines >> '
+        message: 'Please enter contributions >> '
     },
     {
         type: 'input',
