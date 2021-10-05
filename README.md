@@ -30,6 +30,8 @@ Link: https://github.com/wendyqnguyen/readme-generator
 
 Enter app command "node index.js" and follow prompt. once all application information has been entered, a file called "myreadme.md" will be created in the local directory.
 
+Demo video: https://watch.screencastify.com/v/QEB8YvbHJ1rrh0zLIIei
+
 ## License 
     None
 
