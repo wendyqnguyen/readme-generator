@@ -1,7 +1,7 @@
-# name README 
+# README Generator README 
 
 
-  <p><img src="https://img.shields.io/badge/license-MIT-blue"></p>
+  <p><img src="https://img.shields.io/badge/license-None-blue"></p>
   
 
 ## Table of Contents 
@@ -11,46 +11,46 @@
 * [Usage](#usage)
 * [License](#license)
 * [Contributions](#contributions)
-* [Test](#test)
+* [Test](#tests)
 * [Questions](#questions)
 
 ## Description 
-name v
+README Generator v
 
-1.2
+1
 
-description
+ReadMe Generator was created for developers to quickly generate a professional README for new a
 
-Link: link
+Link: https://github.com/wendyqnguyen/readme-generator
 
 
 ## Installation 
 
-install
+1) Install npm: https://www.npmjs.com/. 2) Install Node JS via nmp: https://nodejs.org/en/download/package-manager/. 3) Install the following npm packages: fs, inquirer
 
 ## Usage 
 
-usage
+Enter app command "node index.js" and follow prompt. Once all application information has been entered, a file called "myreadme.md" will be created in the local directory.
 
 ## License 
-    MIT
+    None
 
-https://opensource.org/licenses/MIT
+
 
 ## Contributions 
 
-cintru
+Developers: https://github.com/wendyqnguyen/
 
 
-## Test 
+## Tests 
 
-test
+Tests for this app is underdevelopemnt.
 
 ## Questions 
 
-For general inquiry regarding name v1.2, please contact us via the following channels: 
+For general inquiry regarding README Generator v1, please contact us via the following channels: 
 
 
-- username - [@github](https://github.com/username/)
-- [Email](mailto:email)
+- wendyqnguyen - [@github](https://github.com/wendyqnguyen/)
+- [Email](mailto:wendy@mail.com)
 

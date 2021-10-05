@@ -63,8 +63,7 @@ ${badge}
 * [Questions](#questions)
 
 ## Description 
-${data.name} v\n
-${data.version}\n
+${data.name} v${data.version}\n
 ${data.description}\n
 Link: ${data.link}\n
 
