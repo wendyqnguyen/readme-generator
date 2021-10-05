@@ -1,38 +1,56 @@
-# name README
+# name README 
+
+
+  <p><img src="https://img.shields.io/badge/license-MIT-blue"></p>
+  
+
 ## Table of Contents 
 
-* [Project Basics](#Project)
-* [Inpsiration](#inspiration)
+* [Description](#description)
+* [Installation](#installation)
 * [Usage](#usage)
-* [Credits](#credits)
 * [License](#license)
+* [Contributions](#contributions)
+* [Test](#test)
+* [Questions](#questions)
 
-## Project Basics 
+## Description 
 name v
 
-4
+1.2
 
-Description: desc
+description
 
 Link: link
 
 
-## Motivation
+## Installation 
 
-why
+install
 
-## Usage
+## Usage 
 
-use
-
-## Credits
-
-credits
+usage
 
 ## License 
     MIT
 
-![GitHub License](https://img.shields.io/badge/license-MIT-blue)
-
 https://opensource.org/licenses/MIT
+
+## Contributions 
+
+cintru
+
+
+## Test 
+
+test
+
+## Questions 
+
+For general inquiry regarding name v1.2, please contact us via the following channels: 
+
+
+- username - [@github](https://github.com/username/)
+- [Email](mailto:email)
 

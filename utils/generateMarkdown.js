@@ -1,7 +1,9 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {if (license){
-  return `![GitHub License](https://img.shields.io/badge/license-${license}-blue)`
+  return `
+  <p><img src="https://img.shields.io/badge/license-${license}-blue"></p>
+  `
 }else{
   return '';
 }}
@@ -47,35 +49,47 @@ function generateMarkdown(data) {
   let licenseSection = renderLicenseSection(data.license);
   let licenseLink = renderLicenseLink(data.license);
   let badge = renderLicenseBadge(data.license);
-  return `# ${data.name} README
+  return `# ${data.name} README \n
+${badge}
+
 ## Table of Contents 
 
-* [Project Basics](#Project)
-* [Inpsiration](#inspiration)
+* [Description](#description)
+* [Installation](#installation)
 * [Usage](#usage)
-* [Credits](#credits)
 * [License](#license)
+* [Contributions](#contributions)
+* [Test](#tests)
+* [Questions](#questions)
 
-## Project Basics 
+## Description 
 ${data.name} v\n
 ${data.version}\n
-Description: ${data.description}\n
+${data.description}\n
 Link: ${data.link}\n
 
-## Motivation\n
-${data.motivation}
+## Installation \n
+${data.installation}
 
-## Usage\n
+## Usage \n
 ${data.usage}
-
-## Credits\n
-${data.credits}
 
 ${licenseSection}
 
-${badge}
-
 ${licenseLink}
+
+## Contributions \n
+${data.contribution}
+
+
+## Tests \n
+${data.test}
+
+## Questions \n
+For general inquiry regarding ${data.name} v${data.version}, please contact us via the following channels: \n
+
+- ${data.username} - [@github](https://github.com/${data.username}/)
+- [Email](mailto:${data.email})
 
 `;
 }
